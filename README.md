@@ -12,10 +12,10 @@ Version 1.0
 - 3 heat modes: Full, Medium, Low and an Off/Sleep state.
 - switch between the heat modes by pressing a button (not the flaky metal stud!)
 - visual indication of the heat modes via LEDs:
-  Full      : Red + Green
-  Medium    : Red + Dimmed Green
-  Low       : Red
-  Off/Sleep : no LED is on
+  * Full      : Red + Green
+  * Medium    : Red + Dimmed Green
+  * Low       : Red
+  * Off/Sleep : no LED is on
 - heat modes/temperatures are user configurable via heat profile.  Lower value of
   the heat profile means lower temepratures for Medium and Low mode.
   TODO - measure the thermal values of the tip for each of the heat profile value
