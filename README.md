@@ -207,3 +207,7 @@ or similar SOIC8 test clamp. Or borrow it from a friend.
 - if you get "Upload done" on the status line, then you are done :-)
 - disconnect the clamp from the Atttiny13a and assemble the soldering iron back together
 
+IV) Schematic
+=============
+![see here](https://github.com/ole00/zd-20u/raw/master/img/schem.png "schematic")
+
