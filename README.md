@@ -18,6 +18,7 @@ Version 1.0
   * Off/Sleep : no LED is on
 - heat modes/temperatures are user configurable via heat profile.  Lower value of
   the heat profile means lower temepratures for Medium and Low mode.
+  
   TODO - measure the thermal values of the tip for each of the heat profile value
 - timer to turn off the heat after configurable amount of seconds. 
 - timeouts are user configurable via timeout profiles. Lower value of the 
@@ -33,10 +34,12 @@ Version 1.0
   banks not to auto turn off. Default value of the sleep profile is 1 (full off).  
 - enter profile selection / configuration  by holding the button pressed
   for 5 seconds right after the power-up
+  
   RED blinks R times to indicate which profile is being set:
   * 1 RED blink -> the heat profile
   * 2 RED blinks -> the timeout profile
   * 3 RED blinks -> the sleep profile
+  
   After the RED blink, the GREEN led starts to blink. The number of GREEN flashes
   indicates the profile value. After the GREEN flashes the iron expects the user
   to press the button to select the value she desires. If a button is not pressed
@@ -84,7 +87,7 @@ I) Openning & stripping off the old components
    * IC1 - the 555 chip
 
 - gently & slowly lift one side of the big black capacitor up
-  to about 45 degrees so you can reach the trace underneath (close to the RED LED)
+  to about 45 degrees so you can reach the trace underneath (close to the RED LED, trace cut 3)
 
 
 II) Modifications
@@ -137,15 +140,14 @@ Common for all:
     tape so you don't accidentally snap them off. Solder the other ends of the wires to the 
     tactile button contacts.
 
-14) Use snippers / wire cutters to remove the little spike from underneath the hole for the button.
+14) Use snippers / wire cutters to remove the little spike from the bottom part of the iron case. The spike is located right under the hole for the button and originally kept the little spring in place.
     Be very gentle not to break the fragile case itself. Make sure the whole spike and its base
-    is removed - so that you can glue there the tactile switch
-15) Make a mark where the spike was, this will be the center of the tactile button
+    is removed - so that you can glue there the tactile button.
+15) Make a visual mark on the side of the bottom case, right where the spike was. This will be the center of the tactile button.
     
 16) Use heat gun and drop a hot bead on the spot where the spike was, then quickly glue the tactile
     switch on top of the hot glue bead - ensure your mark matches the center of the button.
-17) If you don't have a tactile button with a long 'nose' sticking out of the button hole then use polymorph to create (or 3d print) a little 
-    extension for the button.
+17) If you don't have a tactile button with a long 'nose' sticking out of the button hole then use polymorph to create (or 3d print) a little extension for the button.
 
 
 III) Programming the ATtiny13a
