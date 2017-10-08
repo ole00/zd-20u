@@ -67,8 +67,8 @@ Version 1.0
    </pre>
 - current configuration profile is displayed during start-up.
   RED blinks X times to indicate current heat profile
-  GREEN blinks Y times to indicate current timeout profile
-  Sleep profile is not indicated.
+  GREEN blinks Y times to indicate current timeout profile.
+  The Sleep profile is not indicated.
 
 
 
@@ -117,7 +117,7 @@ may damage your board and you may get hurt!
  
 Option A: hole-through components
 
-10) Use small strip of capton tape to cover the left pad of D1 and also
+10) Use small strip of kapton tape to cover the left pad of D1 and also
     to cover the Via left to it (close to the trace cut 1).
 11) Solder the LED to the right side pad of the D1 position. Use hot-glue to 
     secure the LED in place.
