@@ -21,7 +21,16 @@ Version 1.0
 - heat modes/temperatures are user configurable via heat profile.  Lower value of
   the heat profile means lower temepratures for Medium and Low mode.
   
-  TODO - measure the thermal values of the tip for each of the heat profile value
+  The values in are **roughly** (low, medium ,full):
+  * Heat 1: °C 200, 250, 330 (°F 390, 480, 625)
+  * Heat 2: °C 230, 265, 330 (°F 450, 510, 625)
+  * Heat 3: °C 240, 280, 330 (°F 465, 535, 625)
+  * Heat 4: °C 250, 290, 330 (°F 480, 555, 625)
+  
+  Temeprature values depend on many factors like quality / rating of the probe
+  and thermometer,  dirt on the soldering tip, size of solder blob on the tip
+  and how well it touches the probe, size / mass of the probe, ambient temperature, 
+  voltage and current in your battery etc.
 - timer to turn off the heat after configurable amount of seconds. 
 - timeouts are user configurable via timeout profiles. Lower value of the 
   timeout profile means shorter time to switch to Off/Sleep mode.
