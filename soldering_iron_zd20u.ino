@@ -2,9 +2,9 @@
 =====================================================================================
 Moded USB Soldering iron ZD20U
 =====================================================================================
-WORK IN PROGRESS - use at your own risk!
+EXPERIMENTAL - use at your own risk!
 
-Version 1.0
+Version 1.1
 - uses Attiny13a MCU to set the heat on the soldering tip
 - 3 heat modes: Full, Medium, Low and an Off/Sleep state.
 - switch between the heat modes by pressing a button (not the flaky metal stud!)
@@ -404,10 +404,10 @@ void appStart(const unsigned char configData) {
   //blink RED led to show current heat profile
   blinkLed(RED, midSd + 1);
   
-  // 90, 98, 106, 114  sigma delta values
-  midSd = 90 + (midSd << 3);
-  // 60, 68, 76,  84  sigma delta values
-  lowSd = midSd - 30; 
+  // 64, 72, 80,  86  sigma delta values
+  midSd = 64 + (midSd << 3);
+  // 44, 63, 60,  66  sigma delta values
+  lowSd = midSd - 20; 
 
   //set timeout values
   autoOffStart = (configData >> 2) & 0x3;
