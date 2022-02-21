@@ -109,7 +109,7 @@ PCB modification image:
 
 
 1) Cut trace 1 - do continuity test on the test points (as indicated by yellow triangles with #1)
-2) Cut trace 2 - optional if you will use hole-through LED and resitor. Do continuity test as indicated by yellow triangles with #2.
+2) Cut trace 2 - optional if you will use through hole LED and resitor. Do continuity test as indicated by yellow triangles with #2.
 3) Cut trace 3 - do continuity test on the test points (as indicated by yellow triangles with #3)
 4) Cut trace 4 on the bottom side - do continuity test on the test points (as indicated by yellow triangles with #4)
 
@@ -123,16 +123,16 @@ may damage your board and you may get hurt!
 8) Solder ATtiny13a to IC1 pads, ensure the pin 1 is the top left one.
 
 
-9) Now decide whether you solder hole-throug LED and resistor (option A)
+9) Now decide whether you solder throug hole LED and resistor (option A)
  or SMD LED and resistor (Option B). Check the image for more info.
  
-Option A: hole-through components
+Option A: through hole components
 
 10) Use small strip of kapton tape to cover the left pad of D1 and also
     to cover the Via left to it (close to the trace cut 1).
 11) Solder the LED to the right side pad of the D1 position. Use hot-glue to 
     secure the LED in place.
-12) Solder resistor 100 to 300 Ohm between the LED and the trace leading to IC1 pin 2.
+12) Solder 300 Ohm to 1k Ohm resistor between the LED and the trace leading to IC1 pin 2.
     Check the image for details.
 
 
@@ -140,7 +140,7 @@ Option B: SMD components
 
 11) Solder the LED to position D1. Ensure new trace 6) is still in place and doesn't 
     touch other contacts.
-12) Ensure you made the trace cut 2), then solder resitor 100 to 300 Ohm between
+12) Ensure you made the trace cut 2), then solder 300 Ohm - 1k Ohm resistor between
     the exposed pads leading to IC pin 2. Check the image for details.
     
 
@@ -165,7 +165,7 @@ III) Programming the ATtiny13a
 ===============================
 Use SOIC8 test clamp make wired connection to ATtiny13a. 
 Search on ebay for: 'Programmer Testing Clip SOP SOIC 8 SOIC8 DIP8 DIP 8 SOP8 Pin IC Test Clamp'
-http://www.ebay.co.uk/itm/Programmer-Testing-Clip-SOP-SOIC-8-SOIC8-DIP8-DIP-8-SOP8-Pin-IC-Test-Clamp-/272258646764
+https://www.ebay.co.uk/sch/i.html?_nkw=Programmer+Testing+Clip+SOP+SOIC+8+Soic8+Dip8+DIP+8+Sop8+Pin+IC+Test+Clamp&_sacat=0
 or similar SOIC8 test clamp. Or borrow it from a friend.
 
 - ensure you have your Arduino IDE installed (mine is 1.8.3)
